@@ -13,6 +13,9 @@
 		7DC6634A2517062E006C8862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC663482517062E006C8862 /* Main.storyboard */; };
 		7DC6634C25170633006C8862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC6634B25170633006C8862 /* Assets.xcassets */; };
 		7DC6634F25170633006C8862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC6634D25170633006C8862 /* LaunchScreen.storyboard */; };
+		7DC66357251706B6006C8862 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC66356251706B6006C8862 /* QuizViewController.swift */; };
+		7DC66359251706C9006C8862 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC66358251706C9006C8862 /* ResultViewController.swift */; };
+		7DC6635B25170B51006C8862 /* iPhone_11Quiz.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DC6635A25170B50006C8862 /* iPhone_11Quiz.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		7DC6634B25170633006C8862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DC6634E25170633006C8862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DC6635025170633006C8862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DC66356251706B6006C8862 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		7DC66358251706C9006C8862 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		7DC6635A25170B50006C8862 /* iPhone_11Quiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_11Quiz.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		7DC663412517062E006C8862 /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				7DC6635A25170B50006C8862 /* iPhone_11Quiz.png */,
 				7DC663422517062E006C8862 /* AppDelegate.swift */,
 				7DC663442517062E006C8862 /* SceneDelegate.swift */,
 				7DC663462517062E006C8862 /* ViewController.swift */,
@@ -63,6 +70,8 @@
 				7DC6634B25170633006C8862 /* Assets.xcassets */,
 				7DC6634D25170633006C8862 /* LaunchScreen.storyboard */,
 				7DC6635025170633006C8862 /* Info.plist */,
+				7DC66356251706B6006C8862 /* QuizViewController.swift */,
+				7DC66358251706C9006C8862 /* ResultViewController.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DC6634F25170633006C8862 /* LaunchScreen.storyboard in Resources */,
+				7DC6635B25170B51006C8862 /* iPhone_11Quiz.png in Resources */,
 				7DC6634C25170633006C8862 /* Assets.xcassets in Resources */,
 				7DC6634A2517062E006C8862 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DC66359251706C9006C8862 /* ResultViewController.swift in Sources */,
 				7DC663472517062E006C8862 /* ViewController.swift in Sources */,
 				7DC663432517062E006C8862 /* AppDelegate.swift in Sources */,
 				7DC663452517062E006C8862 /* SceneDelegate.swift in Sources */,
+				7DC66357251706B6006C8862 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
